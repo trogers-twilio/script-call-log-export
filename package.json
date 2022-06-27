@@ -1,0 +1,17 @@
+{
+  "name": "script-call-log-export",
+  "version": "1.0.0",
+  "description": "Export Twilio call logs to a CSV file",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Terence Rogers (Twilio)",
+  "license": "MIT",
+  "dependencies": {
+    "dotenv": "^16.0.1",
+    "json2csv": "^5.0.7",
+    "moment": "^2.29.3",
+    "twilio": "^3.77.2"
+  }
+}
